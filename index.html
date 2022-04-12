@@ -230,10 +230,10 @@
                         width:720,
                         height:480
                     },
-                    audio:false
+                    audio:true
                 })
                 var astream = await navigator.mediaDevices.getUserMedia({
-                    video:false,
+                    video:true,
                     audio:true
                 })
                 audioTrack = astream.getAudioTracks()[0];
